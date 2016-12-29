@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>关于温通</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/proservice.css" />
+	</head>
+	<body>
+		<!--header-->
+		<div class="header bgWhite">
+			<div class="top">
+				<div class="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="logo_tel">
+					<img src="img/logo_tel.png" />
+				</div>
+			</div>
+		</div><!--header end-->
+		<!--nav-->
+		<div class="navBox">
+			<div class="navlogo">
+				<img src="img/nav01.png" />
+			</div>
+			<div class="widthMain">
+				<div class="nav navWidth">
+					<a href="index.html">温通首页</a>
+					<a href="proservice.html">产品服务</a>
+					<a href="customerservice.html">客户服务</a>
+					<a href="cooperation.html">加盟合作</a>
+					<a class="active" href="about.html">关于温通</a>
+					<a href="joinus.html">人才招聘</a>
+				</div>
+			</div>
+		</div><!--nav end-->
+		<!--banner-->
+		<div class="banner">
+			<img src="img/banner.png" />
+		</div><!--banner end-->
+		<div class="main">
+			<div class="widthMain borderGrey">
+				<div class="mainTitle">
+					<div class="mainTitleName">关于温通</div>
+					<ul>
+						
+						<li class="active">公司简介</li>
+						<li>企业文化</li>
+						<li>公司大事记</li>
+						<li>员工风采</li>
+					</ul>
+				</div>
+				<div class="mainContainer">
+					<div class="subTitle">
+						<div class="tx">公司简介</div>
+					</div>
+					<div class="mainCon">
+						<div class="job-content mar-t pad-lr pad-lr">
+							<p>公司简介</p>
+						</div>
+						<div class="job-content mar-t pad-lr hide">
+							<p>企业文化</p>
+						</div>
+						<div class="job-content mar-t pad-lr hide">
+							<p>公司大事记</p>
+						</div>
+						<div class="job-content mar-t pad-lr hide">
+							<p>员工风采</p>
+						</div>
+					</div>
+					<!--<div class="text-r " id="page">
+						<a href="javascript:void(0);">首页</a>
+						<a href="javascript:void(0);">上一页</a>
+						<a href="javascript:void(0);">1</a>
+						<a href="javascript:void(0);">2</a>
+						<a href="javascript:void(0);">下一页</a>
+						<a href="javascript:void(0);">末页</a>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--footer-->
+		<div class="footerBox">
+			<div class="widthMain footer">
+				<div class="module1 txCenter">
+					<a href="proservice.html"><h1>产品服务</h1></a>
+					<a href="proservice.html"><h2>省际件</h2></a>
+					<a href="proservice.html"><h2>港澳台件</h2></a>
+					<a href="proservice.html"><h2>免费回单</h2></a>
+					<a href="proservice.html"><h2>代收货款</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="customerservice.html"><h1>客户服务</h1></a>
+					<a href="customerservice.html"><h2>运单查询</h2></a>
+					<a href="customerservice.html"><h2>网点查询</h2></a>
+					<a href="customerservice.html"><h2>常见问题</h2></a>
+					<a href="customerservice.html"><h2>违禁品查询</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="cooperation.html"><h1>加盟合作</h1></a>
+					<a href="cooperation.html"><h2>加盟须知</h2></a>
+					<a href="cooperation.html"><h2>加盟流量</h2></a>
+					<a href="cooperation.html"><h2>加盟区域</h2></a>
+					<a href="cooperation.html"><h2>门店合作</h2></a>
+					<a href="cooperation.html"><h2>在线申请</h2></a>
+					<a href="cooperation.html"><h2>加盟信息</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="about.html"><h1>关于温通</h1></a>
+					<a href="about.html"><h2>公司简介</h2></a>
+					<a href="about.html"><h2>企业文化</h2></a>
+					<a href="about.html"><h2>公司大事记</h2></a>
+					<a href="about.html"><h2>员工风采</h2></a>
+				</div>
+				<div class="module2">
+					<div>
+						<span class="txCenter">温通微信</span>
+						<img src="img/index1.png" />
+					</div>
+					<div>
+						<span class="txCenter">温通微博</span>
+						<img src="img/index2.png" />
+					</div>
+				</div>
+			</div>
+			<div class="copyright">温通快递 版权所有copyright©right:2013-2021沪ICP备13033865总部地址：上海市青浦区新团路501 邮编：210717</div>
+		</div><!--footer end-->
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>	
+		<script type="text/javascript">
+			$(function(){
+				$(".mainTitle li").on("click",function(){
+					$(".mainTitle li").removeClass("active");
+					$(this).addClass("active");
+					var conCon = $(this).html();
+					$(".subTitle .tx").html(conCon);
+					var index = $(".mainTitle li").index(this);					
+					$(".mainCon .job-content").addClass("hide");
+					$(".mainCon .job-content").eq(index).removeClass("hide");
+				});
+			})
+		</script>
+	</body>
+</html>
+
+

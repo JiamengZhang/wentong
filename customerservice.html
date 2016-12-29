@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>客户服务</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/proservice.css" />
+	</head>
+	<body>
+		<!--header-->
+		<div class="header bgWhite">
+			<div class="top">
+				<div class="logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="logo_tel">
+					<img src="img/logo_tel.png" />
+				</div>
+			</div>
+		</div><!--header end-->
+		<!--nav-->
+		<div class="navBox">
+			<div class="navlogo">
+				<img src="img/nav01.png" />
+			</div>
+			<div class="widthMain">
+				<div class="nav navWidth">
+					<a href="index.html">温通首页</a>
+					<a href="proservice.html">产品服务</a>
+					<a class="active" href="customerservice.html">客户服务</a>
+					<a href="cooperation.html">加盟合作</a>
+					<a href="about.html">关于温通</a>
+					<a href="joinus.html">人才招聘</a>
+				</div>
+			</div>
+		</div><!--nav end-->
+		<!--banner-->
+		<div class="banner">
+			<img src="img/banner.png" />
+		</div><!--banner end-->
+		
+		<div class="main">
+			<div class="widthMain borderGrey">
+				<div class="mainTitle ">
+					<div class="mainTitleName">客户服务</div>
+					<ul>
+						<li class="active">运单查询</li>
+						<li>网点查询</li>
+						<li>常见问题</li>
+						<li>违禁品查询</li>
+					</ul>
+				</div>
+				<div class="mainContainer">
+					<div class="subTitle">
+						<div class="tx">运单查询</div>
+						
+					</div>
+					<div class="mainCon">
+						<!--运单查询-->
+						<div class="con">
+							<div class="ydcx borderGrey">
+								<textarea class="borderGrey" placeholder="最多可同时查询10条运单，多个运单请按回车键隔开"></textarea>
+								<div class="yzmBox">
+									<button class="bgWhite">查询</button>
+									<img class="refrash" src="img/refrash.png" />
+									<img class="yzm" src="img/yzm.png" />
+									<input class="yzmInput borderGrey" type="text" />								
+								</div>
+							</div>
+						</div>
+						<!--网点查询-->
+						<div class="con mapBox hide">
+							<div class="sideSearch">
+								<div class="searchBox">
+									<span>省份城市</span>
+									<input class="searchInput borderGrey" type="text" />
+								</div>
+								<div class="searchBox">
+									<span>关键字</span>
+									<input class="searchInput borderGrey" type="text" />
+								</div>
+								<button class="borderGrey bgWhite">查询</button>
+							</div>
+							<div id="map"></div>
+							<button class="back bgWhite borderGrey">返回省份</button>
+						</div>
+						<!--常见问题-->
+						<div class="con hide"></div>
+						<!--违禁品查询-->
+						<div class="con hide">
+							<p>禁寄物品是指国家法律、法规禁止寄递的物品，主要包括：</p>
+							<ul class="iconBox">
+								<li>
+									<div>
+										<img src="img/w01.png" />
+										<span>各种武器、弹药</span>
+									</div>
+									<div>
+										<img src="img/w02.png" />
+										<span>各种易燃烧性物品</span>
+									</div>
+									<div>
+										<img src="img/w03.png" />
+										<span>各种易爆炸性物品</span>
+									</div>
+									<div>
+										<img src="img/w04.png" />
+										<span>各种易腐蚀性物品</span>
+									</div>
+									<div>
+										<img src="img/w05.png" />
+										<span>各种放射性元素及容器</span>
+									</div>
+								</li>
+								<li>
+									<div>
+										<img src="img/w06.png" />
+										<span>各种烈性毒药</span>
+									</div>
+									<div>
+										<img src="img/w07.png" />
+										<span>各种麻醉药物</span>
+									</div>
+									<div>
+										<img src="img/w08.png" />
+										<span>生化制品和传染性物品</span>
+									</div>
+									<div>
+										<img src="img/w09.png" />
+										<span>淫秽的出版物等</span>
+									</div>
+									<div>
+										<img src="img/w10.png" />
+										<span>妨害公共卫生的物品</span>
+									</div>
+								</li>
+								<li>
+									<div>
+										<img src="img/w11.png" />
+										<span>禁止流通、寄递</span>
+									</div>
+									<div>
+										<img src="img/w12.png" />
+										<span>包装不妥，可能危害</span>
+									</div>
+									<div>
+										<img src="img/w13.png" />
+										<span>国际禁止寄递物品</span>
+									</div>
+									<div></div>
+									<div></div>
+								</li>
+							</ul>
+							<ul class="textCon">
+								<li>1、各类武器、弹药。如枪支、子弹、炮弹、手榴弹、地雷、炸弹等。</li>
+								<li>2、各类易爆炸性物品。如雷管、炸药、火药、鞭炮等。</li>
+								<li>3、各类易燃烧性物品，包括液体、气体和固体。如汽油、煤油、桐油、酒精、生漆、柴油、气雾剂、气体打火机、瓦斯气瓶、磷、硫磺、火柴等。</li>
+								<li>4、各类易腐蚀性物品。如火硫酸、盐酸、硝酸、有机溶剂、农药、双氧水、危险化学品等。</li>
+								<li>5、各类放射性元素及容器。如铀、钴、镭、钚等。</li>
+								<li>6、各类烈性毒药。如铊、氰化物、砒霜等。</li>
+								<li>7、各类麻醉药物。如鸦片（包括罂粟壳、花、苞、叶）、吗啡、可卡因、海洛因、大麻、冰毒、麻黄素及其它制品等。</li>
+								<li>8、各类生化制品和传染性物品。如炭疽、危险性病菌、医药用废弃物等。</li>
+								<li>9、含有反动、淫秽或有伤风化内容的报刊、书籍、图片、宣传品、音像制品、计算机磁盘及光盘。</li>
+								<li>10、各种妨害公共卫生的物品。如尸骨、动物器官、肢体、未经硝制的兽皮、未经药制的兽骨等。</li>
+								<li>11、国家法律、法规、行政规章明令禁止流通、寄递或进出境的物品，如国家秘密文件和资料、国家货币及伪造的货币和有价证券、仿真武器、管制刀具、珍贵文物、濒危野生动物及其制品等。</li>
+								<li>12、包装不妥，可能危害人身安全、污染或者损毁其他寄递件、设备的物品等。</li>
+								<li>13、各寄达国（地区）禁止寄递进口的物品等。</li>
+								<li>14、其他禁止寄递的物品。</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footerBox">
+			<div class="widthMain footer">
+				<div class="module1 txCenter">
+					<a href="proservice.html"><h1>产品服务</h1></a>
+					<a href="proservice.html"><h2>省际件</h2></a>
+					<a href="proservice.html"><h2>港澳台件</h2></a>
+					<a href="proservice.html"><h2>免费回单</h2></a>
+					<a href="proservice.html"><h2>代收货款</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="customerservice.html"><h1>客户服务</h1></a>
+					<a href="customerservice.html"><h2>运单查询</h2></a>
+					<a href="customerservice.html"><h2>网点查询</h2></a>
+					<a href="customerservice.html"><h2>常见问题</h2></a>
+					<a href="customerservice.html"><h2>违禁品查询</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="cooperation.html"><h1>加盟合作</h1></a>
+					<a href="cooperation.html"><h2>加盟须知</h2></a>
+					<a href="cooperation.html"><h2>加盟流量</h2></a>
+					<a href="cooperation.html"><h2>加盟区域</h2></a>
+					<a href="cooperation.html"><h2>门店合作</h2></a>
+					<a href="cooperation.html"><h2>在线申请</h2></a>
+					<a href="cooperation.html"><h2>加盟信息</h2></a>
+				</div>
+				<div class="module1 txCenter">
+					<a href="about.html"><h1>关于温通</h1></a>
+					<a href="about.html"><h2>公司简介</h2></a>
+					<a href="about.html"><h2>企业文化</h2></a>
+					<a href="about.html"><h2>公司大事记</h2></a>
+					<a href="about.html"><h2>员工风采</h2></a>
+				</div>
+				<div class="module2">
+					<div>
+						<span class="txCenter">温通微信</span>
+						<img src="img/index1.png" />
+					</div>
+					<div>
+						<span class="txCenter">温通微博</span>
+						<img src="img/index2.png" />
+					</div>
+				</div>
+			</div>
+			<div class="copyright">温通快递 版权所有copyright©right:2013-2021沪ICP备13033865总部地址：上海市青浦区新团路501 邮编：210717</div>
+		</div><!--footer end-->
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>	
+		<script src="js/echarts.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".mainTitle li").on("click",function(){
+					$(".mainTitle li").removeClass("active");
+					$(this).addClass("active");
+					var conCon = $(this).html();
+					$(".subTitle .tx").html(conCon);
+					var index = $(".mainTitle li").index(this);					
+					$(".mainCon .con").addClass("hide");
+					$(".mainCon .con").eq(index).removeClass("hide");
+					if(index == 1){
+						getMap();
+					}
+				});
+				
+				
+				
+			})
+			
+			function getMap(){
+				var echartsPie = echarts.init(document.getElementById('map'));
+				$.get('js/china.json', function (chinaJson) {
+					echarts.registerMap('china', chinaJson);
+					var option = {
+					    tooltip: {
+					        trigger: 'item'
+					    },
+					    backgroundColor: '#ffffff',
+					   	series: [
+					        {
+					            name: '网点',
+					            type: 'map',
+					            mapType: 'china',
+					            roam: false,
+					            label: {
+					                normal: {
+					                    show: true,
+					                    textStyle: {
+									   		color: '#9a7e68'
+									   	},
+					                },
+					                emphasis: {
+					                    show: true
+					                }
+					            },
+					            zoom:1.2,
+					            itemStyle: {
+						            normal: {
+						                areaColor: '#a4d3ed',
+						                borderColor: '#d8ecf7'
+						            },
+						            emphasis: {
+						                areaColor: '#a4d3ed'
+						            }
+						        }
+					        }
+					    ]
+					};
+					// 使用刚指定的配置项和数据显示图表。
+					echartsPie.setOption(option);
+				})
+			}
+		</script>
+	</body>
+</html>
