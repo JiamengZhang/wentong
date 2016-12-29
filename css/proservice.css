@@ -1,0 +1,126 @@
+.main .mainCon{ min-height: 420px;}
+.hide{ display: none;}
+
+.main{ margin-top: 30px;}
+.main .widthMain{ display: flex; flex-flow: row; box-shadow: 0 0 5px #CCCCCC;}
+.main .mainTitle{ width: 180px; font-size: 16px; height: 100%;}
+.main .mainTitle .mainTitleName{ font-size: 24px; color: #fd8c08;height: 62px; line-height: 60px; text-align: center; cursor: pointer; border-bottom: solid 1px #cccccc; letter-spacing: 2px;}
+.main .mainTitle ul{ display: flex; flex-flow: column; padding: 0 5px;}
+	.main .mainTitle ul li{ flex: 1; height: 62px; line-height: 60px; text-align: center; color: #4e4e4e;  cursor: pointer; border-bottom: solid 1px #cccccc; letter-spacing: 2px;}
+	.main .mainTitle ul li.active,
+	.main .mainTitle ul li:hover{ color: #009ad6;}
+	
+
+.main .mainContainer{flex: 1;border-left: solid 1px #cccccc; padding: 0 8px;}	
+.main .subTitle{ margin-top: 14px; border-bottom: dashed 1px #323232; padding-bottom: 8px;}
+	.main .subTitle .tx{ height: 32px; line-height: 32px; text-align: center; color: #4c4c4c; font-weight: 300; letter-spacing: 5px; font-size: 22px;}
+
+.main .mainCon .content{ padding-left: 16px; margin-top: 20px;}	
+.main .mainCon .content li{ border-bottom:  solid 1px #CCCCCC; padding-bottom: 5px;}
+.main .mainCon .content li:last-child{ border-bottom-width: 0;}
+	.main .mainCon .content li h1{ font-size: 18px; line-height: 38px; color: #4e4e4e;}
+	.main .mainCon .content li h2,
+	.main .mainCon .content li p{ font-size: 14px; line-height: 24px; color: #4f4f4f;}
+.main .mainCon .content span{ display: block; color: #4f4f4f;font-size: 14px; line-height: 24px; margin-top: 8px;}
+
+
+/*客户服务*/
+.main .mainCon .con .ydcx{ background-color: #f2f2f2; margin: 30px; padding: 20px;}
+	.main .mainCon .con .ydcx textarea{ width: 100%; height: 216px; padding: 10px;}
+	.main .mainCon .con .ydcx .yzmBox{ overflow: hidden; margin-top: 10px;}
+		.main .mainCon .con .ydcx .yzmBox>*{ float: right;}
+		.main .mainCon .con .ydcx .yzmBox button{ width: 80px; height: 38px; border: solid 1px #c65020; font-size: 18px; color: #c65020; line-height: 36px;}
+		.main .mainCon .con .ydcx .yzmBox .refrash{ margin: 10px 16px; cursor: pointer;}
+		.main .mainCon .con .ydcx .yzmBox .yzm{ height: 38px; width: auto;}
+		.main .mainCon .con .ydcx .yzmBox .yzmInput{ height: 38px; margin-right: 10px; padding: 5px; line-height: 36px; width: 200px;}
+
+
+.main .sideSearch{ overflow: hidden; margin-top: 10px; margin-left: 60px;}
+	.main .sideSearch .searchBox{ float: left; margin-right: 20px;}
+		.main .sideSearch .searchBox >span{ display: inline-block; font-size: 14px; color: #4d4d4d; line-height: 34px;}
+		.main .sideSearch .searchBox >.searchInput{ height: 34px; line-height: 32px; padding: 5px;}
+	.main .sideSearch button{ height: 34px; line-height: 32px; border-color: #0299de; width: 90px; border-radius: 5px; color: #0299DE; cursor: pointer;}
+
+.main .mainCon .con p{ font-size: 18px; color: #333333; line-height: 48px;}
+.main .mainCon .con .iconBox{ width: 700px; font-size: 14px;}
+	.main .mainCon .con .iconBox li { display: flex; flex-flow: row;}
+		.main .mainCon .con .iconBox li div{ flex: 1;}
+			.main .mainCon .con .iconBox li img,
+			.main .mainCon .con .iconBox li span{ display: block; margin: 0 auto; text-align: center;}
+			.main .mainCon .con .iconBox li span{ line-height: 50px; color: #565455;}
+
+.main .mainCon .con .textCon{ margin-top: 40px; font-size: 14px; line-height: 26px; color: #656565; padding-left: 10px; margin-bottom: 40px;}
+
+
+#map{ height: 420px; margin-top: 20px;}
+.main .mainCon .con .back{ height: 34px; line-height: 32px; border-color: #0299de; width: 90px; border-radius: 5px; color: #0299DE; cursor: pointer; position: absolute; left: 50%; bottom: 10px; margin-left: -45px;}
+.main .mainCon .mapBox{ position: relative; padding-bottom: 40px;}
+
+
+/*加盟合作*/
+.mar-t{ margin-top: 20px;}
+.mar-b{margin-bottom: 16px;}
+.pad-lr{ padding: 0 16px;}
+.uinn{ padding: 0 5px;}
+.job-content{ color: #323232; }
+	.job-content h3{ font-weight: bold;font-size: 18px; margin: 14px 0; text-align: center;}
+	.job-content p{ font-size: 14px; line-height: 24px; margin-bottom: 14px;}
+	.job-content .sideSearch{ margin-left: 100px;}
+	.job-content .container{ overflow: hidden; margin-top: 20px;}
+		.job-content .box{ width: 380px; color: #4D4D4D; border: 1px solid #E6E6E6; line-height: 32px; float: left; font-size: 14px; margin-bottom: 24px;}
+		.job-content .box:nth-child(odd){ margin-right: 20px;}
+			.job-content .box .boxTitle { background-color: #e6e6e6; text-align: center; color: #474747; height: 30px; line-height: 30px;}
+			.job-content .box .boxCon{ display: flex; flex-flow: row; border-bottom: solid 1px #E6E6E6;}
+				.job-content .box .boxCon>*{ flex: 1; text-align: center; height: 30px; line-height: 30px;}
+				.job-content .box .boxLink{ border-right: solid 1px #E6E6E6;}
+				.job-content .box .boxBottom{ padding: 10px; line-height: 24px;}
+	.job-content .tui{ line-height: 28px; color: #4e4e4e;}	
+		.job-content .tui p{ text-indent:2em; line-height: 24px; margin-bottom: 0px;}		
+	.job-content .coop{ border: solid 1px #0898e1; padding: 16px 20px; margin-top: 80px; margin-bottom: 60px;}
+		.job-content .coop p{ margin-bottom: 0; line-height: 28px; color: #d82a2b;}
+
+	.job-content .shenqing{margin-bottom: 10px;}
+		.job-content .shenqing img{ display: inline-block; vertical-align: middle; margin-top: -3px;}
+		.job-content .shenqing a{ display: inline-block;line-height: 24px; text-decoration: underline; color: #4c4c4c;}
+
+
+
+
+/*人才招聘*/
+	.text-r{text-align: right; margin: 10px;}
+	.text-r>a{ display: inline-block; padding: 5px 8px; background-color: #029ADE; color: white; font-size: 14px; border-radius: 4px;}
+	
+	.minH{ min-height: 420px;}
+	.main .job-box{ width: 100%; padding: 0 8px;}
+		.main .job-box .job-title{ margin-top: 14px; border-bottom: dashed 1px #323232; padding-bottom: 8px; position: relative;}
+			.main .job-box .button{ height: 32px; line-height: 32px; text-align: center; color: #4c4c4c; font-weight: 300; letter-spacing: 5px; font-size: 22px; width: 100%;}
+		.main .job-box .searchbox{ position: absolute; right: 14px; top: 4px; height: 24px; border-radius: 20px; border: solid 1px #eb862c; width: 160px; display: flex; flex-flow: row;}
+			.main .job-box .searchbox input{ border: none; width: 120px; margin-left: 10px; font-size: 12px;}
+			.main .job-box .searchbox .search{ flex: 1; padding-right: 10px;}
+				.main .job-box .searchbox .search img{ display: block; height: 20px; width: auto; margin-top: 1px;}
+	.main .job-content{}
+		.main .job-content .module{ padding: 10px 40px; border-bottom: dashed 1px #d0d0d0; font-size: 14px; line-height: 28px;}
+		.main .job-content .module.column{ display: flex; flex-flow: column;}
+			.main .job-content .module .list{ flex: 1; overflow: hidden;}
+				.main .job-content .module .list .listTitle,
+				.main .job-content .module .list .listCon{ float: left;}
+					.main .job-content .module .list .listCon li{ display: inline-block; margin-left: 20px;}
+				.main .job-content .module .list .more{ float: right; color: #358ed2;}	
+				
+			.main .job-content .module.row{ display: flex; flex-flow: row;}
+				.main .job-content .module .new{ flex: 1;}
+					.main .job-content .module .new ul{ padding-left: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

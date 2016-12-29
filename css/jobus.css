@@ -1,0 +1,57 @@
+.job-box{padding: 10px 0;}
+.border-b{border-bottom: 1px solid #989898;}
+.job-title{padding: 8px 0;}
+.button{padding: 5px 14px; color: white; background-color: #029ADE; margin-bottom: 8px;}
+.job-content{padding: 10px; color: #333333;}
+.job-width{width: 60%;}
+.overh{overflow: hidden;}
+.fl{float: left;}
+.fr{float: right;}
+a{color: #333333; text-decoration: none;}
+.w1{width: 15%;}
+.w2{width: 85%;}
+.more{color: #029ADE; cursor:pointer;}
+.job-width .w2 a{margin-right: 10px;}
+.searchbox{width: 200px;height: 30px; line-height: 30px; border: 1px solid #ef8329; border-radius: 15px; overflow: hidden; cursor:pointer;}
+input{outline: none; border: none; margin: 0 8px; width: 144px; line-height: 30px; padding: 0;}
+.search{width: 30px; height: 30px; background-image: url(../img/sousuo.png); background-repeat: no-repeat; background-position: center; background-size: 24px 24px;}
+.mar-t{margin-top: 10px;}
+.mar-b{margin-bottom: 16px;}
+.job{width: 60%; line-height: 24px;}
+.join{width: 40%; line-height: 30px;}
+.job a,join a{display: block; margin-left: 10px;}
+.job-width a:hover{color: #029ADE;}
+.job-height{height: 300px;}
+.text-r{text-align: right;}
+.text-r>a{padding: 5px 8px; background-color: #029ADE; color: white; font-size: 14px; border-radius: 4px;}
+
+
+
+.title,.about-title{padding: 2px 0; border:1px solid #CDCDCD; background-color: #e5e5e5; overflow: hidden; color: #999999;}
+.job-btn{margin: 20px 0 10px 0;}
+.title>span{display: block; width: 162px; line-height: 35px; text-align: center; float: left; cursor:pointer;}
+.about-title>span{display: block; width: 194px; line-height: 35px; text-align: center; float: left; cursor:pointer;}
+.border-r{ border-right: 1px solid #b3b3b3;}
+.job-content h3{font-weight: bold;font-size: 18px; margin: 14px 0; text-align: center;}
+.job-content p{font-size: 14px; line-height: 24px; margin-bottom: 14px;}
+.uhide{display: none;}
+
+.w48{width: 462px; color: #4D4D4D; border: 1px solid#E6E6E6;line-height: 32px;}
+.bgray{background-color: #e6e6e6;}
+.text-c{text-align: center;}
+.info{border-bottom: 1px solid #E6E6E6;}
+.w5{width: 225px;}
+.border-r1{border-right: 1px solid #E6E6E6;}
+.uinn{padding: 0 5px;}
+.w48 .p{line-height: 26px;}
+.quyu{margin-left: 100px; color: #4D4D4D;}
+.border{border: 1px solid #CDCDCD; margin: 0;}
+.chaxun{border: 1px solid #029ADE; border-radius: 3px; color: #029ADE; background-color: white; width: 80px; cursor:pointer;}
+.job-content .tui{line-height: 28px;}
+.job-content .tui p{text-indent:2em; line-height: 24px; margin-bottom: 0px;}
+.coop{color: red; border: 1px solid #029ADE; padding: 8px; width: 800px; margin: 20px auto;}
+.job-content .coop div{line-height: 24px;}
+.job-content .coop p{margin-bottom:2px; text-indent: 6em;}
+.shenqing{margin-bottom: 10px;}
+.shenqing a{line-height: 22px; text-decoration: underline;}
+.color{color: #029ADE;}

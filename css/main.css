@@ -1,0 +1,38 @@
+/*public*/
+.widthMain{ width: 980px; margin: 0 auto;}
+.bgWhite{ background-color: white;}
+.borderGrey{ border: solid 1px #cdcdcd;}
+.txCenter{ text-align: center;}
+
+.header{ width: 100%;}
+	.header .top{ overflow: hidden;}
+		.header .top .logo{ float: left; margin-left: 48px;}
+			.header .top .logo img{ display: block; margin: 12px 0; height: 66px; width: auto;}
+		.header .top .logo_tel{ float: right; margin-right: 30px;}
+			.header .top .logo_tel img{ display: block; margin: 12px 0; height: 66px; width: auto;}
+		
+
+.navBox{ background-color: #0299de; position: relative;}
+	.navBox .navlogo{ position: absolute; left: 10px; top: 0;}
+	.navBox .nav{ height: 50px;}
+	.navBox .navWidth{ width: 600px; margin: 0 auto;}
+		.navBox .nav a{ display: inline-block; width: 90px; text-align: center; line-height: 34px; color: white; font-size: 14px; margin-top: 8px;}
+		.navBox .nav a.active{ background-color: #f2fafd; color: #0099dd; border-radius: 5px;}
+		.navBox .nav a:hover{ background-color: #f2fafd; color: #0099dd; border-radius: 5px;}
+
+.banner{ width: 100%;}
+	.banner img{ display: block; width: 100%;}
+
+.footerBox{ background-color: #0898e1; margin-top: 60px; color: white; font-size: 14px;}
+	.footerBox .footer { overflow: hidden; padding: 30px;}
+	.footerBox .footer a{ color: white;}
+		.footerBox .footer [class^='module']{ float: left; margin-right: 90px;}
+		.footerBox .footer [class^='module']:last-child{ margin-right: 0;}
+			.footerBox .footer .module1 h1{ font-size: 16px; font-weight: bold; margin-bottom: 16px; letter-spacing: 2px;}
+			.footerBox .footer .module1 h2{ font-size: 14px; margin-bottom: 12px;}
+			.footerBox .footer .module2 >div{ float: left;}
+			.footerBox .footer .module2 >div:first-child{ margin-right: 20px;}
+				.footerBox .footer .module2 span,
+				.footerBox .footer .module2 img{ display: block; }
+				.footerBox .footer .module2 span{ margin-bottom: 5px;}
+	.footerBox .copyright{ text-align: center; line-height: 32px; letter-spacing: .5px;}		
